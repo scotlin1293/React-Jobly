@@ -1,0 +1,18 @@
+.job-card.card {
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+}
+
+.job-card .card-body {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.job-card .card-body .button-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.job-card .btn {
+  font-weight: bold;
+}

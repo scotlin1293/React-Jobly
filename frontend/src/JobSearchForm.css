@@ -1,0 +1,7 @@
+.search-form .row {
+  --bs-gutter-x: 0;
+}
+
+.search-form .btn {
+  font-weight: bold;
+}

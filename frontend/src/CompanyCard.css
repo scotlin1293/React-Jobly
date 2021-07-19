@@ -1,0 +1,24 @@
+.card-link {
+  text-decoration: none;
+}
+
+.company-card.card {
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+  cursor: pointer;
+  color: #212529;
+}
+
+.company-card.card:hover {
+  color: #0056b3;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+
+.company-card .card-body {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.company-card .card-body img {
+  width: 75%;
+  margin: auto;
+}
